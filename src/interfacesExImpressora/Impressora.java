@@ -9,6 +9,7 @@ public abstract class Impressora {
 
     public void imprimirTudo() {
         lista.forEach(Imprimivel::imprimir);
+        lista = new ArrayList<>();
     }
 
     public void adicionarImprimivel(Imprimivel umImprimivel) {
