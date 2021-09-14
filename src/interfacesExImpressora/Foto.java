@@ -8,6 +8,6 @@ public class Foto implements Imprimivel {
 
     @Override
     public void imprimir() {
-        System.out.println("Sou uma selfie " +nome+ "\t" +tipo);
+        System.out.println("Sou uma selfie \t\t\t\t\t" +nome+ "\t" +tipo);
     }
 }

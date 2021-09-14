@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 public abstract class Impressora {
 
-    private ArrayList<Imprimivel> lista;
+    private ArrayList<Imprimivel> lista = new ArrayList<>();
 
 
     public void imprimirTudo() {
-        lista.forEach(System.out::println);
+        lista.forEach(Imprimivel::imprimir);
     }
 
     public void adicionarImprimivel(Imprimivel umImprimivel) {

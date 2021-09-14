@@ -19,5 +19,11 @@ public class Main {
                 super.imprimirTudo();
             }
         };
+
+        impressora.adicionarImprimivel(contrato1);
+        impressora.adicionarImprimivel(foto1);
+        impressora.adicionarImprimivel(documento1);
+
+        impressora.imprimirTudo();
     }
 }

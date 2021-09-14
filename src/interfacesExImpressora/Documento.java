@@ -8,6 +8,6 @@ public class Documento implements Imprimivel {
 
     @Override
     public void imprimir() {
-        System.out.println("Sou um documento Word " +nome+ "\t" +tipo);
+        System.out.println("Sou um documento Word \t\t\t" +nome+ "\t" +tipo);
     }
 }
